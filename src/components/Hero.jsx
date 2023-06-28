@@ -17,20 +17,20 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#915EFF]">Olayinka</span>
+            Hi, I'm <span className="text-[#915EFF]">Koleaje Olayinka Oluwatobi</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             <TypeAnimation
               preRenderFirstString={true}
               sequence={[
                 500,
-                "Unlocking the potential of web technology", // initially rendered starting point
-                6000,
-                "Creating stunning and interactive web experiences",
-                6000,
-                "Delivering high-performance and scalable solutions",
-                6000,
                 "Crafting user-friendly interfaces for seamless navigation",
+                8000,
+                "Creating stunning and interactive web experiences",
+                8000,
+                "Delivering high-performance and scalable solutions",
+                8000,
+                "Unlocking the potential of web technology", // initially rendered starting point
                 500,
               ]}
               speed={50}
@@ -38,7 +38,7 @@ const Hero = () => {
               className={"type"}
             />
             <br className="sm:block hidden" />
-            to drive success and inspire users.
+            to drive success and captivate users.
           </p>
         </div>
       </div>
