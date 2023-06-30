@@ -47,13 +47,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-slate-50 text-[17px] max-w-3xl leading-[30px]"
       >
-        I have an innate talent for crafting captivating digital experiences, turning ideas into dynamic realities. Armed with expertise in
-        cutting-edge technologies and an unwavering attention to detail, I
-        derive immense joy from creating elegant solutions that effectively
-        address real-world challenges. By closely collaborating with visionary
-        minds like yours, we'll usher in a new era of efficiency, scalability,
-        and user-friendliness. Let's embark on an extraordinary
-        digital journey to bring dreams to life. 🌟
+        I have an innate talent for crafting captivating digital experiences,
+        turning ideas into dynamic realities. Armed with expertise in
+        cutting-edge technologies and unwavering attention to detail, I derive
+        immense joy from creating elegant solutions that effectively address
+        real-world challenges. By closely collaborating with visionary minds
+        like yours, we'll usher in a new era of efficiency, scalability, and
+        user-friendliness. Let us embark on an extraordinary digital journey to
+        bring dreams to life. 🌟
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

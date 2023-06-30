@@ -1,3 +1,4 @@
+import { m } from "framer-motion";
 import {
   mobile,
   backend,
@@ -5,6 +6,7 @@ import {
   web,
   javascript,
   typescript,
+  mysql,
   html,
   css,
   reactjs,
@@ -12,20 +14,25 @@ import {
   tailwind,
   nodejs,
   mongodb,
+  python,
+  java,
+  django,
+  solidity,
   git,
   figma,
   docker,
   meta,
-  starbucks,
-  tesla,
   semicolonAfrica,
+  donateCode,
   learnSpace,
-  shopify,
   carrent,
   jobit,
-  tripguide,
+  cartify,
+  robo,
   threejs,
   shootFish,
+  testimonial1,
+  faceRecognition,
 } from "../assets";
 
 export const navLinks = [
@@ -80,6 +87,14 @@ const technologies = [
     icon: typescript,
   },
   {
+    name: "python",
+    icon: python,
+  },
+  {
+    name: "java",
+    icon: java,
+  },
+  {
     name: "React JS",
     icon: reactjs,
   },
@@ -111,6 +126,19 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
+
+  {
+    name: "django",
+    icon: django,
+  },
+  {
+    name: "solidity",
+    icon: solidity,
+  },
+  {
+    name: "mysql",
+    icon: mysql,
+  },
   {
     name: "docker",
     icon: docker,
@@ -125,13 +153,10 @@ const experiences = [
     iconBg: "#FF0027",
     date: "January 2022 - April 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a deeper understanding of project management and the importance of collective effort.",
+      "Learned valuable skills in communication, coordination, and problem-solving within a team setting.",
+      "Collaborated with fellow team members, gaining insights into effective teamwork in Software Development",
+      "Engaged in real-world projects, gaining hands-on experience in software engineering",
     ],
   },
   {
@@ -139,14 +164,15 @@ const experiences = [
     company_name: "ShootFish Digital",
     icon: shootFish,
     iconBg: "#FFFFFF",
-    date: "Jan 2021 - Feb 2022",
+    date: "June 2022 - November 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and deployed web applications for multiple clients, demonstrating strong technical skills and a deep understanding of software development principles.",
+      "Collaborated closely with clients to understand their design and development needs, resulting in the successful delivery of tailored solutions.",
+      "Developed and implemented seamless frontend and backend solutions, ensuring smooth user experiences and meeting project requirements.",
+      "Implemented efficient coding practices and utilized modern technologies, resulting in improved application performance and scalability.",
     ],
   },
+
   {
     title: "Software Engineer",
     company_name: "LearnSpace Africa",
@@ -161,54 +187,33 @@ const experiences = [
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
+    title: "Software Engineer Volunteer",
+    company_name: "Donate:Code",
+    icon: donateCode,
+    iconBg: "#053249",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborating with a team of talented individuals across the world to build great projects that make a positive impact.",
     ],
   },
-
-
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Olayinka is a dedicated and growth-oriented developer who consistently delivers high-quality results. He stays updated with the latest technologies and approaches challenges with a logical mindset. His collaborative nature and articulate communication skills make him an asset in team environments. He produces robust and scalable solutions, reflecting his strong grasp of software engineering principles. With his commitment to excellence and passion for growth, he is an exceptional candidate for software engineering roles.",
+    name: "Adewale Adeyinka",
+    designation: "SW Engineer",
+    company: "Empire Co",
+    image: testimonial1,
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Cartify",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A modern e-commerce platform that provides a seamless shopping experience for customers. ",
     tags: [
       {
         name: "react",
@@ -223,34 +228,38 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: cartify,
+    source_code_link: "https://github.com/koleajeolayinka/Cartify",
   },
   {
-    name: "Job IT",
+    name: "Job Application",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A web-based platforms used to connect employers with job seekers. Employers can use these platforms to post open positions that they are looking to fill, while job seekers visit or use the app to browse job opportunities and apply.",
     tags: [
       {
-        name: "react",
+        name: "Django",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Javascript",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "html",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "css",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/koleajeolayinka/Job-Application",
   },
   {
-    name: "Trip Guide",
+    name: "Robo Friends Gallary",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "React-based app that lets you search for robots based on their names using APIs. The application is fully responsive and functional on a wide range of screens. ",
     tags: [
       {
         name: "nextjs",
@@ -265,13 +274,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: robo,
+    source_code_link: "https://github.com/koleajeolayinka/robo-friends-gallery",
   },
   {
-    name: "Car Rent",
+    name: "face Recognition",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to search for faces online by utilizing a URL to capture the desired face.",
     tags: [
       {
         name: "react",
@@ -286,7 +295,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: faceRecognition,
     source_code_link: "https://github.com/",
   },
 ];

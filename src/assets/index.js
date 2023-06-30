@@ -13,25 +13,32 @@ import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
+import java from "./tech/java.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import threejs from "./tech/threejs.png";
+import python from "./tech/python.png";
+import django from "./tech/django.png";
+import solidity from "./tech/solidity.png";
+import mysql from "./tech/mysql.png";
 
 import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 import semicolonAfrica from "./company/SemicolonAfrica.png";
 import learnSpace from "./company/learnSpace.png";
 import shootFish from "./company/shootFish.png";
+import donateCode from "./company/donateCode.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import cartify from "./cartify.png"
+import robo from "./robo.png"
+import faceRecognition from "./face_recognition.png"
+import testimonial1 from "./testimonials/aa.jpeg";
 
 export {
   logo,
@@ -55,14 +62,21 @@ export {
   tailwind,
   typescript,
   threejs,
+  python,
+  django,
+  mysql,
+  java,
+  solidity,
   meta,
-  shopify,
-  starbucks,
-  tesla,
   semicolonAfrica,
+  donateCode,
   shootFish,
   learnSpace,
   carrent,
   jobit,
   tripguide,
+  cartify,
+  faceRecognition,
+  robo,
+  testimonial1,
 };
