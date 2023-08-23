@@ -20,10 +20,8 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.png";
 import python from "./tech/python.png";
 import django from "./tech/django.png";
-import solidity from "./tech/solidity.png";
 import mysql from "./tech/mysql.png";
 
 import meta from "./company/meta.png";
@@ -61,12 +59,10 @@ export {
   redux,
   tailwind,
   typescript,
-  threejs,
   python,
   django,
   mysql,
   java,
-  solidity,
   meta,
   semicolonAfrica,
   donateCode,

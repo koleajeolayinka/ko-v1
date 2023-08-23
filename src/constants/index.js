@@ -17,7 +17,6 @@ import {
   python,
   java,
   django,
-  solidity,
   git,
   figma,
   docker,
@@ -29,7 +28,6 @@ import {
   jobit,
   cartify,
   robo,
-  threejs,
   shootFish,
   testimonial1,
   faceRecognition,
@@ -115,10 +113,6 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
@@ -131,10 +125,7 @@ const technologies = [
     name: "django",
     icon: django,
   },
-  {
-    name: "solidity",
-    icon: solidity,
-  },
+
   {
     name: "mysql",
     icon: mysql,

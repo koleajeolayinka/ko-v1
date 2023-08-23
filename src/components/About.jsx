@@ -51,10 +51,7 @@ const About = () => {
         turning ideas into dynamic realities. Armed with expertise in
         cutting-edge technologies and unwavering attention to detail, I derive
         immense joy from creating elegant solutions that effectively address
-        real-world challenges. By closely collaborating with visionary minds
-        like yours, we'll usher in a new era of efficiency, scalability, and
-        user-friendliness. Let us embark on an extraordinary digital journey to
-        bring dreams to life. 🌟
+        real-world challenges. 🛸
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
